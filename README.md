@@ -1,7 +1,7 @@
 # AE-Telex
 Monome Teletype for the AE modular ecosystem
 
-![IMG_3227](https://github.com/fauxcyrillic/AE-Telex/assets/127664178/527f82d5-5370-488b-b85e-9f9e13fd010e)
+![Telex v1.3](https://github.com/fauxcyrillic/AE-Telex/blob/main/Images/tt.JPG)
 
 Work in progress, first version seems to tentatively work pretty well.
 Not too many major changes required, as most of the Teletype innards run off a regulated 5v / 3.3v anyway. Changed the op-amp scaling as appropriate for a 0-5v world. Still, recreating the whole schematic from scratch was quite a task!
