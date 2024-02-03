@@ -8,7 +8,28 @@ Not too many major changes required, as most of the Teletype innards run off a r
 
 Loads of testing required before this is a confirmed 'thing', but feel free to take, inspect, and improve as you wish.
 
-# Observations so far
+# Updates v1.3 (Feb 2024)
+
+Tested with a basic non-backlit keyboard; much better performance (no crashing, lower background noise)
+
+Complete re-trace: switched from 2-layer to 4-layer PCB, making a much closer replication of the Monome design, including large copper pours for GND, AGND, 3V3 etc.
+
+Fixed an issue with the resistor network which was messing up inputs 2 and 7
+
+SMD resistors for LEDs
+
+Moved I2C connection
+
+Removed RF filter on screen (to test)
+
+Moved decoupling caps for DAC and ADC much closer to ICs (to test, hopefully a big improvement)
+
+Tidied up around the USB power driver chip, also moved it to the front of the board (was getting in the way of the AE bus cable when underneath)
+
+Tweaks to front panel: improved cutout tolerances, font sizes etc
+
+
+# Observations so far (late 2023)
 
 Works ok with my RK61 keyboard as long as I *connect the Telex end of the usb cable first*. Turned the backlight off (although it seems fine with it on)
 
